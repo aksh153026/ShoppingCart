@@ -3,10 +3,9 @@ package com.service;
 import java.util.List;
 
 import com.model.Product;
+interface ProductService {
 
-public interface ProductService {
-
-	public List<Product> getAllProducts();
+	List<Product> getAllProducts();
 
 	Product getProductById(String productId);
 
