@@ -3,7 +3,7 @@ package com.service;
 import java.util.List;
 
 import com.model.Product;
-interface ProductService {
+public interface ProductService {
 
 	List<Product> getAllProducts();
 
